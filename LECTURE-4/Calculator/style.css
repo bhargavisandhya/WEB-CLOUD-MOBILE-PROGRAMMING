@@ -1,0 +1,55 @@
+p {
+    font-size:10px;
+}
+
+.border {
+    border:1px solid #ccc;
+    width:327px;
+    height:100px;
+    background:white;
+}
+
+.calcbuttons {
+    padding:0px;
+}
+
+.numberbtn {
+    width:80px;
+    height: 60px;
+    font-size:20px;
+    background: #4c8098;
+    color: black;
+}
+
+.operbtn {
+    width:80px;
+    height: 60px;
+    font-size:20px;
+    background: #4c8098;
+    color: black;
+}
+
+.equalbtn {
+    width:164px;
+    height: 60px;
+    background: red;
+    font-size:20px;
+    color: #ee2738;
+}
+
+.result {
+    background:white;
+    color:red;
+    font-family: "Courier New", Courier;
+    padding:0 10px;
+    text-align:right;
+    font-size:20px;
+}
+
+/*.calcbody {
+    background:#9fbff4;
+    width:220px;
+    padding:10px;
+
+    /*border-radius:12px;*/
+/*}*/
