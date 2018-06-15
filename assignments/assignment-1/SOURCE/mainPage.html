@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <style>
+                .button
+                {	background-color: blue;
+                    border-radius: 8px;
+                    border: none;
+                    color: white;
+                    padding: 0px 15px;
+                    text-align: center;
+                    text-decoration: none;
+                    font-size :32px;
+                    margin: 5px;
+                    cursor: pointer;
+                    display: inline-block;
+                    transition: all 0.5s;
+                }
+                .select {
+                    background-color:#E6E6FA;
+                    width: 150px;
+                    color: #4c8098;
+                }
+                .p {
+                    text-decoration-color: #4c8098;
+                    font-size: 18px;
+                    font-style: italic;
+                    color: blue;
+                }
+                select {
+                    width: 20%;
+                    padding: 12px 20px;
+                    margin: 2px 0;
+                    display: inline-block;
+                    border: 1px solid #ccc;
+                    border-radius: 4px;
+                    box-sizing: border-box;
+                }
+                h1
+                {	color: #4c8098;
+	                font-family: calibri;
+    	            font-size: 18px;
+                }
+                h2
+                {	color: #0000ff;
+	                font-family: calibri;
+    	            font-size: 35px;
+                }
+</style>
+</head>
+<body class="body" bgcolor="#E6E6FA">
+<center>
+
+<div>
+<h2>
+    <center>
+        <table>
+            <td>WELCOME TO COURSE REGISTRATION</td>
+            <td><img src="http://cdn0.sbnation.com/imported_assets/627405/logo-umkc-kangaroos-350.s600x600.jpg" width="80" height="100"></td>
+        </table>
+    </center>
+</h2>
+
+<form id="demo">
+<table id="output">
+<tr>
+    <td><h1><strong>Select your level of Education</strong></h1></td>
+    <td> </td>
+    <td><select class="select" id= "education"><option value="select">select</option> 
+                <option value="Graduate">Graduate</option> 
+                <option value="Undergraduate">Under Graduate</option> 
+        </select>
+    </td>
+</tr>
+<tr>
+    <td><h1><strong>Select your Semester </strong></h1></td>
+    <td> </td>
+    <td><select class="select" id = "semester"><option value="select">select</option> 
+                <option value="Fall">Fall</option> 
+                <option value="Spring">Spring</option> 
+                <option value="Summer">Summer</option> 
+                
+        </select>
+    </td>
+</tr>
+<tr>
+        <td><h1><strong>Select your Career</strong></h1></td>
+        <td> </td>
+        <td><select class="select" id= "career"><option value="select">select</option> 
+                    <option value="it">Information Technology</option> 
+                    <option value="cs">Computer Science</option> 
+                    <option value="mech">Mechanical</option> 
+                    <option value="civil">Civil</option> 
+            </select>
+        </td>
+</tr>
+<tr>
+    
+</tr>
+<tr>
+    <td></td>
+    <td><button class= "button" value="submit" id="btn_click" onclick="onSubmit()">SUBMIT</button></td>
+    <td></td>
+</tr>
+</table>
+</center>
+</form>    
+<form id="results">
+    <table>
+            <tr><td id ="one"></td></tr>
+            <tr><td id ="one"></td></tr>
+            <tr><td id ="one"></td></tr>
+    </table>
+
+</form>
+<p id="demo2"></p>
+
+
+<script>
+
+        function onSubmit() {
+            var e = document.getElementById("education");
+            var strUser1 = e.options[e.selectedIndex].text;
+        
+            var s = document.getElementById("semester");
+            var strUser2 = s.options[s.selectedIndex].text;
+        
+            var c = document.getElementById("career");
+            var strUser3 = c.options[c.selectedIndex].text;
+        
+            document.getElementById("demo").innerHTML = "Searching results for " + strUser1 + " students " +strUser2 + " semester in " +strUser3+ " career" ;
+
+            if(strUser1 == "Graduate"){
+                if(strUser2 == "Fall"){
+                    if(strUser3 == "Information Technology"){
+                        window.location.href="C:\\Users\\snehadidigam\\Documents\\GitHub\\Web-Cloud-Mobile-Programming-Assignmets\\source\\gfi.html";
+                    }
+                    else if(strUser3=="Computer Science"){
+                        window.location.href="C:\\Users\\snehadidigam\\Documents\\GitHub\\Web-Cloud-Mobile-Programming-Assignmets\\source\\gfc.html"
+                    }
+                }
+
+            }        
+        }
+        
+</script>
+</body>
+</html>
