@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "792570690673",
+    "firebase_url": "https://mobile5-af675.firebaseio.com",
+    "project_id": "mobile5-af675",
+    "storage_bucket": "mobile5-af675.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:792570690673:android:0e7008247a2b171f",
+        "android_client_info": {
+          "package_name": "edu.umkc.rashmi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "792570690673-rvlcvq3nkrsshfol33j83cv3ffmed2b5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPfqGt-qvGdtBFL4Wcfzm7K2JSFxalsTI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
