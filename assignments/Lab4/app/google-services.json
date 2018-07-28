@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "761570537736",
+    "firebase_url": "https://mobile-2-bd618.firebaseio.com",
+    "project_id": "mobile-2-bd618",
+    "storage_bucket": "mobile-2-bd618.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:761570537736:android:51577deda45c3ba2",
+        "android_client_info": {
+          "package_name": "lab2.mobile.web.com.mobile_lab2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "761570537736-617r0mf9bm4nh3uf7pb8c5qds6a2dm9f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2GEtLpFtiaMG32Z4QKjSB_EvtY6X39TQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
